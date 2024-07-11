@@ -1,0 +1,133 @@
+body {
+    background-color: #ecece4;
+    font-family: "Mada", sans-serif;
+}
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/Hero\ 2.jpg);
+    text-align: center;
+    }
+    .h1 {
+        color: whitesmoke;
+        font-size: xx-large;
+        font-weight: 700;
+        padding: 5%;
+        font-family: "Algerian"
+
+    }
+.navigation{
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.inline-block{
+    display: flex;
+    align-items: center;
+}
+
+#announcements{
+    padding: 1%;
+    width: 88%;
+    
+}
+.CTA{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ecece4;
+    
+    
+}
+#mainGrid{
+    margin: 0px 5%;
+    padding-left: 15%;
+    display: grid;
+    height: 66%;
+    width: 66%;
+    grid-template-rows: 225px 225px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+
+}
+.mainGridArea{
+    text-wrap: wrap;
+    
+}
+#buttons{
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 88%;
+    margin: 20px;
+}
+#reviewGrid{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 88%;
+    width: 66%;
+    padding-left: 20%;
+ justify-content: center;
+    
+}
+footer{
+    height: 125px;
+    background-color: #373738;
+    padding: 2%;
+    
+    }
+    .block-element2{ 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  .footer-element1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    .footer-element3{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    p7{
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .navigation{
+            display: none;
+        }
+        #mainGrid{
+            grid-template-rows: 225px 225px 225px 225px 225px 225px;
+            grid-template-columns: 1fr;
+        }
+        #reviewGrid{
+            grid-template-rows: 117.26px 117.26px 117.26px;
+            grid-template-columns: 1fr;
+        }
+        footer{
+            background-color: #ecece4;
+        }
+        .block-element2{
+            display: inline-block;
+        }
+        p7{
+           color: black; 
+        }
+
+    }
+    
